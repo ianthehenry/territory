@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HexButton.h
 //  Territory
 //
 //  Created by Ian Henry on 4/25/13.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HexButton : UIControl
 
-@property (retain, nonatomic) IBOutlet UILabel *scoreLabel;
+- (void)setHexColor:(UIColor *)color;
 
 @end

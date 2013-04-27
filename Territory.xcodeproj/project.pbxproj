@@ -19,6 +19,8 @@
 		3C16262E1729DCEA004307D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16262D1729DCEA004307D6 /* ViewController.m */; };
 		3C1626311729DCEA004307D6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C16262F1729DCEA004307D6 /* ViewController_iPhone.xib */; };
 		3C1626341729DCEB004307D6 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1626321729DCEB004307D6 /* ViewController_iPad.xib */; };
+		3C16263C1729DD64004307D6 /* HexButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16263B1729DD64004307D6 /* HexButton.m */; };
+		3C16263E1729DD89004307D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C16263D1729DD89004307D6 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		3C16262D1729DCEA004307D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3C1626301729DCEA004307D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		3C1626331729DCEB004307D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3C16263A1729DD64004307D6 /* HexButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HexButton.h; path = ../../territory/Territory/HexButton.h; sourceTree = "<group>"; };
+		3C16263B1729DD64004307D6 /* HexButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HexButton.m; path = ../../territory/Territory/HexButton.m; sourceTree = "<group>"; };
+		3C16263D1729DD89004307D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 				3C1626151729DCEA004307D6 /* UIKit.framework in Frameworks */,
 				3C1626171729DCEA004307D6 /* Foundation.framework in Frameworks */,
 				3C1626191729DCEA004307D6 /* CoreGraphics.framework in Frameworks */,
+				3C16263E1729DD89004307D6 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +81,7 @@
 		3C1626131729DCEA004307D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C16263D1729DD89004307D6 /* QuartzCore.framework */,
 				3C1626141729DCEA004307D6 /* UIKit.framework */,
 				3C1626161729DCEA004307D6 /* Foundation.framework */,
 				3C1626181729DCEA004307D6 /* CoreGraphics.framework */,
@@ -89,9 +96,11 @@
 				3C1626241729DCEA004307D6 /* AppDelegate.m */,
 				3C16262C1729DCEA004307D6 /* ViewController.h */,
 				3C16262D1729DCEA004307D6 /* ViewController.m */,
-				3C16262F1729DCEA004307D6 /* ViewController_iPhone.xib */,
 				3C1626321729DCEB004307D6 /* ViewController_iPad.xib */,
+				3C16262F1729DCEA004307D6 /* ViewController_iPhone.xib */,
 				3C16261B1729DCEA004307D6 /* Supporting Files */,
+				3C16263A1729DD64004307D6 /* HexButton.h */,
+				3C16263B1729DD64004307D6 /* HexButton.m */,
 			);
 			path = Territory;
 			sourceTree = "<group>";
@@ -180,6 +189,7 @@
 				3C1626211729DCEA004307D6 /* main.m in Sources */,
 				3C1626251729DCEA004307D6 /* AppDelegate.m in Sources */,
 				3C16262E1729DCEA004307D6 /* ViewController.m in Sources */,
+				3C16263C1729DD64004307D6 /* HexButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
