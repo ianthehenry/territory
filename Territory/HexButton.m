@@ -58,7 +58,10 @@ static const CGFloat TAU = M_PI * 2.0f;
 }
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
-    return sqrtf(powf(point.x - CGRectGetMidX(self.bounds), 2.0f) + powf(point.y - CGRectGetMidY(self.bounds), 2.0f)) < self.apothem ? self : nil;
+    CGFloat xDistance = point.x - CGRectGetMidX(self.bounds);
+    CGFloat yDistance = point.y - CGRectGetMidY(self.bounds);
+    CGFloat distanceSquared = xDistance * xDistance + yDistance * yDistance;
+    return distanceSquared < self.apothem * self.apothem ? self : nil;
 }
 
 - (void)setup {
